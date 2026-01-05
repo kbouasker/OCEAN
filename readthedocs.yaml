@@ -11,5 +11,4 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
-  builder: html
-  source: docs/source   # <--- points to your actual .rst files
+
