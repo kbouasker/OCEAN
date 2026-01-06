@@ -23,6 +23,22 @@ application behavior in disaggregated and pooled memory environments.
 
 Why OCEAN?
 ----------
+CXL 3.0 introduces transformative memory pooling and fabric management capabilities,
+but the lack of available hardware poses significant barriers to research. Existing
+emulation approaches focus on single-host scenarios or lack CXL 3.0 features, limiting
+their utility for datacenter-scale research.
+
+**OCEAN addresses this gap by providing:**
+
+* **Multi-host memory pooling** — Memory sharing across multiple virtual machines 
+  for realistic datacenter scenarios
+* **CXL 3.0 compliance** — Full protocol support including fabric management, 
+  dynamic capacity devices, and configurable switch topologies
+* **Full-system emulation** — Runs unmodified production workloads without 
+  application changes
+* **Performance fidelity** — Achieves emulation within approximately 3x of 
+  projected native CXL speeds
+* **Research flexibility** — Configurable topology, policies, and instrumentation
 
 OCEAN is intended to support:
 
@@ -98,4 +114,3 @@ Community
 
 * **Project Website**: https://cxl-emu.github.io
 * **GitHub Repository**: https://github.com/cxl-emu/OCEAN
-* **Issue Tracker**: https://github.com/cxl-emu/OCEAN/issues

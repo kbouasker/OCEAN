@@ -227,7 +227,6 @@ OCEAN implements cache coherence protocols to ensure:
 
 * Memory consistency across hosts
 * Proper invalidation and update mechanisms
-* HITM (Hit-Modified) tracking and analysis
 * Performance impact measurement
 
 Memory Pooling
@@ -298,4 +297,3 @@ For more information about specific aspects of OCEAN:
 * **Building OCEAN** - See :doc:`getting-started`
 * **Running Experiments** - Configure workloads and collect data
 * **Configuration Options** - See :doc:`configuration` for build and runtime settings
-* **Performance Analysis** - Review collected metrics and statistics

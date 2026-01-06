@@ -112,11 +112,10 @@ This builds:
 Build Core Components
 ----------------------
 
-Return to the OCEAN root directory and build core libraries:
+this builds core libraries:
 
 .. code-block:: bash
 
-   cd ../../  # Back to OCEAN root
    mkdir build
    cd build
    cmake ..
@@ -328,8 +327,3 @@ If you encounter problems:
 
 * Check the `GitHub Issues <https://github.com/cxl-emu/OCEAN/issues>`_
 * Review the `CXL-EMU Website <https://cxl-emu.github.io>`_
-* Open a new issue with:
-  
-  * Your system configuration
-  * Steps to reproduce the problem
-  * Error messages and logs
