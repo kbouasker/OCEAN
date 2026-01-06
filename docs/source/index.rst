@@ -25,16 +25,6 @@ software stack compatibility.
 **Validated with real workloads:** Molecular dynamics (GROMACS), distributed databases 
 (TIGON), and LLMs demonstrate up to 15% performance improvement over RDMA-based approaches.
 
-Why OCEAN?
-----------
-
-Existing CXL emulators focus on single-host scenarios and lack CXL 3.0 features. 
-OCEAN provides:
-
-* **Multi-host support** — Essential for datacenter-scale research
-* **CXL 3.0 compliance** — Complete protocol implementation including fabric management
-* **Production workloads** — Test real applications, not just microbenchmarks
-* **Research flexibility** — Configurable topology, policies, and instrumentation
 
 Key Capabilities
 ----------------
